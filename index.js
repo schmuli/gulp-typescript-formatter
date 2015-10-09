@@ -1,7 +1,7 @@
 "use strict";
 
 var PluginError = require('gulp-util').PluginError;
-var through = require('through');
+var through = require('through2');
 var formatter = require('typescript-formatter');
 
 function gulpTypescriptFormatter(options) {
@@ -14,14 +14,18 @@ function gulpTypescriptFormatter(options) {
     }
 
     if (file.isBuffer()) {
-      file.contents = new Buffer(formatter.processString(file.path, String(file.contents), formatOptions));
+      var fileContentPromise = formatter.processString(file.path, String(file.contents), formatOptions);
+
+      fileContentPromise.then(function(result) {
+        file.contents = new Buffer(result.dest);
+
+        cb(null, file);
+      });
     }
 
     if (file.isStream()) {
       return cb(new PluginError('gulp-typescript-formatter', 'Streaming not supported'));
     }
-
-    cb(null, file);
   });
 
 }

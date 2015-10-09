@@ -1,7 +1,7 @@
 {
   "name": "gulp-typescript-formatter",
   "preferGlobal": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Adam Kalman <adam.kalman@changepoint.com>",
   "description": "typescript formatter gulp plugin",
   "main": "index.js",
@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "gulp-util": "~3.0.4",
-    "through": "~2.3.7",
+    "through2": "^2.0.0",
     "typescript-formatter": "0.4.1"
   },
   "license": "MIT",
