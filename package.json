@@ -1,17 +1,17 @@
 {
   "name": "gulp-typescript-formatter",
-  "preferGlobal": false,
-  "version": "0.0.2",
-  "author": "Adam Kalman <adam.kalman@changepoint.com>",
-  "description": "typescript formatter gulp plugin",
+  "version": "0.1.0",
+  "author": "Schmulik Raskin <schmuli@gmail.com>",
+  "description": "Gulp plugin for the Typescript Formatter",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/daptiv/gulp-typescript-formatter.git"
+    "url": "https://github.com/schmuli/gulp-typescript-formatter.git"
   },
   "keywords": [
     "gulp",
     "typescript",
+    "formatter",
     "plugin",
     "ts",
     "gulpplugin",
@@ -20,11 +20,10 @@
   ],
   "dependencies": {
     "gulp-util": "~3.0.4",
-    "through2": "^2.0.0",
-    "typescript-formatter": "0.4.1"
+    "through2": "^2.0.0"
   },
   "license": "MIT",
-  "engines": {
-    "node": ">=0.10"
+  "peerDependencies": {
+    "typescript-formatter": "^2.1.0"
   }
 }
