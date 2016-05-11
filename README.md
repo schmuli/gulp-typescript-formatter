@@ -16,10 +16,10 @@ var typescriptFormatter = require('gulp-typescript-formatter');
 gulp.task('format', function () {
     return gulp.src('**/*.ts')
         .pipe(typescriptFormatter({
-	     baseDir: '.',
-             tsfmt: true
-	})
-	.pipe(gulp.dest('.'));
+            baseDir: '.',
+            tsfmt: true
+        })
+        .pipe(gulp.dest('.'));
 }
 ```
 
