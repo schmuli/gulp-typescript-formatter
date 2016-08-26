@@ -1,6 +1,6 @@
 ## gulp-typescript-formatter
 
-Use the typescript-formatter to format TypeScript files in Gulp.
+[Gulp](http://gulpjs.com/) wrapper/plugin for [typescript-formatter](https://www.npmjs.com/package/typescript-formatter) to format TypeScript files with Gulp.
 
 ### Installation
 
