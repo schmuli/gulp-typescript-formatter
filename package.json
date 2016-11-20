@@ -1,12 +1,12 @@
 {
   "name": "gulp-typescript-formatter",
   "version": "0.1.2",
-  "author": "Pierre-Luc Gregoire <plgregoire81@gmail.com>",
+  "author": "Schmulik Raskin schmuli@gmail.com>",
   "description": "Gulp plugin for the Typescript Formatter",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/plgregoire/gulp-typescript-formatter.git"
+    "url": "https://github.com/schmuli/gulp-typescript-formatter.git"
   },
   "keywords": [
     "gulp",
