@@ -1,5 +1,5 @@
 {
-  "name": "gulp-typescript-formatter",
+  "name": "@schmulik/gulp-typescript-formatter",
   "version": "0.1.2",
   "author": "Schmulik Raskin schmuli@gmail.com>",
   "description": "Gulp plugin for the Typescript Formatter",
