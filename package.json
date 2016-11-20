@@ -24,6 +24,6 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "typescript-formatter": "^3.0.1"
+    "typescript-formatter": "^4.0.1"
   }
 }
