@@ -1,29 +1,29 @@
 {
-    "name": "@schmulik/gulp-typescript-formatter",
-    "version": "0.1.2",
-    "author": "Schmulik Raskin schmuli@gmail.com>",
-    "description": "Gulp plugin for the Typescript Formatter",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/schmuli/gulp-typescript-formatter.git"
-    },
-    "keywords": [
-        "gulp",
-        "typescript",
-        "formatter",
-        "plugin",
-        "ts",
-        "gulpplugin",
-        "gulpfriendly",
-        "typescript-formatter"
-    ],
-    "dependencies": {
-        "gulp-util": "~3.0.8",
-        "through2": "^2.0.3"
-    },
-    "license": "MIT",
-    "peerDependencies": {
-        "typescript-formatter": "^5.0.0"
-    }
+  "name": "@schmulik/gulp-typescript-formatter",
+  "version": "1.0.0",
+  "author": "Schmulik Raskin schmuli@gmail.com>",
+  "description": "Gulp plugin for the Typescript Formatter",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schmuli/gulp-typescript-formatter.git"
+  },
+  "keywords": [
+    "gulp",
+    "typescript",
+    "formatter",
+    "plugin",
+    "ts",
+    "gulpplugin",
+    "gulpfriendly",
+    "typescript-formatter"
+  ],
+  "dependencies": {
+    "gulp-util": "~3.0.8",
+    "through2": "^2.0.3"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript-formatter": "^5.0.0"
+  }
 }
